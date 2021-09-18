@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@400;600;700&display=swap');
+
+body{
+    background-color: #d3c5c5;
+    font-family: Arial, serif;
+}
+
+.box-1 h3 {
+    background-color: aquamarine;
+    color: white;
+    padding: 1%;
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+/* .parent-para{
+    font-size: 20px;
+} */
+
+p{
+    color: rgb(123, 49, 49);
+    font-family: 'Gluten', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.box-1{
+    background-color: lightyellow;
+}
+
+#second-p{
+    color: red;
+}
+
+#box-model{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* Short form for margin all around */
+    /* margin: 20px; */
+
+    /* Full form for margin */
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* Short form to represent above */
+    /* margin: 5px 10px 5px 10px; */
+
+    /* Another Short form to represent above */
+    margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
